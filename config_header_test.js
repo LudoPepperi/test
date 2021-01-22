@@ -1,9 +1,7 @@
 var Transaction = 'Sales Order';
 var Catalog = 'Default Catalog'
 const logo = 'https://baijashop.com/img/baija-shop-logo-1549555162.jpg'
-const LeftMenu = [
- 
-];
+
 const RightMenu = [
   {
         catalog: "Default Catalog",
