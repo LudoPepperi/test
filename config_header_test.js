@@ -22,7 +22,7 @@ const RightMenu = [
     action:"navigation",
     deepLink: 'list/all_activities'
   },
-]
+];
 /*actions:
 
 setUUIDandNav
