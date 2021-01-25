@@ -1,14 +1,13 @@
-var Transaction = 'Sales Order'
-var Catalog = 'Default Catalog'
-const logo = 'https://baijashop.com/img/baija-shop-logo-1549555162.jpg';
+var Transaction = 'Commande B2B';
+var Catalog = 'B2B'
+const logo = 'https://baijashop.com/img/baija-shop-logo-1549555162.jpg'
 const LeftMenu = [
  
 ];
-
 const RightMenu = [
   {
-        catalog: "Default Catalog",
-        transaction: "Sales Order",
+        catalog: "B2B",
+        transaction: "Commande B2B",
     title: "",
     icon:`          
 	<svg class="end-icon" xmlns="http://www.w3.org/2000/svg" style="width:24px !important;height:24px !important" viewBox="0 0 24 24">
@@ -16,7 +15,7 @@ const RightMenu = [
 	</svg> 
     `,
     action:"setUUIDandNav",
-    deepLink: '/Transactions/scope_items/3a8a9fbfb3c644bf9cc37958c3678880?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%227142a6f9-af48-4dba-a30d-85d89b2ed083%5C%22%7D%22'
+    deepLink: '/Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%227142a6f9-af48-4dba-a30d-85d89b2ed083%5C%22%7D%22'
   },
   {
     title: "Activité",
