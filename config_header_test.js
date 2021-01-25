@@ -1,6 +1,9 @@
-var Transaction = 'Sales Order';
-var Catalog = 'Default Catalog';
+var Transaction = 'Sales Order'
+var Catalog = 'Default Catalog'
 const logo = 'https://baijashop.com/img/baija-shop-logo-1549555162.jpg';
+const LeftMenu = [
+ 
+];
 
 const RightMenu = [
   {
@@ -16,7 +19,7 @@ const RightMenu = [
     deepLink: '/Transactions/scope_items/3a8a9fbfb3c644bf9cc37958c3678880?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%227142a6f9-af48-4dba-a30d-85d89b2ed083%5C%22%7D%22'
   },
   {
-    title: "Activité",
+    title: "ActivitÃ©",
     action:"navigation",
     deepLink: 'list/all_activities'
   },
