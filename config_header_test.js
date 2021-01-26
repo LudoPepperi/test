@@ -20,7 +20,7 @@ const LeftMenu = [
   {
     catalog: "ALL",
     transaction: "",
-    title: "Hair Care",
+    title: "",
     action:"setUUIDandNav",
     deepLink: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22696718b2-3431-4aad-b23a-8a6d7c824ef0%5C%22%7D%22'
   },
@@ -28,14 +28,14 @@ const LeftMenu = [
   {
     catalog: "ALL",
     transaction: "",
-    title: "Masks",
+    title: "",
     action:"setUUIDandNav",
     deepLink: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%222a7c613e-1e67-4497-af60-ae8a6633487a%5C%22%7D%22'
   },
   {
     catalog: "ALL",
     transaction: "",
-    title: "Line Sheet",
+    title: "",
     action:"createNewTransaction",
     deepLink: 'Transactions/scope_items/{{UUID}}'
   }
@@ -60,8 +60,8 @@ const RightMenu = [
   },
   {
     title: "Logout",
-    action:"zendesk",
-    deepLink: 'Logout'
+    action:"logout",
+    deepLink: 'logout'
   }
 ]
 /*actions:
