@@ -5,21 +5,21 @@ const LeftMenu = [
   {
     catalog: "ALL",
     transaction: "B2B Order",
-    title: "Facial Cosmetics",
+    title: "",
     action:"setUUIDandNav",
     deepLink: '/Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%227142a6f9-af48-4dba-a30d-85d89b2ed083%5C%22%7D%22'
   },
   {
     catalog: "ALL",
     transaction: "B2B Order",
-    title: "Hands Cosmetics",
+    title: "",
     action:"setUUIDandNav",
     deepLink: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22023bad44-a6d3-435b-928d-bab0a41b4dc6%5C%22%7D%22'
   },
 
   {
     catalog: "ALL",
-    transaction: "B2B Order",
+    transaction: "",
     title: "Hair Care",
     action:"setUUIDandNav",
     deepLink: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22696718b2-3431-4aad-b23a-8a6d7c824ef0%5C%22%7D%22'
@@ -27,14 +27,14 @@ const LeftMenu = [
 
   {
     catalog: "ALL",
-    transaction: "B2B Order",
+    transaction: "",
     title: "Masks",
     action:"setUUIDandNav",
     deepLink: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%222a7c613e-1e67-4497-af60-ae8a6633487a%5C%22%7D%22'
   },
   {
     catalog: "ALL",
-    transaction: "Print Catalog",
+    transaction: "",
     title: "Line Sheet",
     action:"createNewTransaction",
     deepLink: 'Transactions/scope_items/{{UUID}}'
@@ -54,14 +54,14 @@ const RightMenu = [
     deepLink: '/Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%227142a6f9-af48-4dba-a30d-85d89b2ed083%5C%22%7D%22'
   },
   {
-    title: "History",
+    title: "Activites",
     action:"navigation",
     deepLink: 'list/all_activities'
   },
   {
-    title: "Support",
+    title: "Logout",
     action:"zendesk",
-    deepLink: 'list/all_activities'
+    deepLink: 'Logout'
   }
 ]
 /*actions:
