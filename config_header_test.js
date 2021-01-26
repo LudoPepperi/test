@@ -1,6 +1,6 @@
 var Transaction = 'B2B Order';
 var Catalog='ALL'
-const logo = 'https://storage.pepperi.com/PreSales/beauty_demo/logo.png'
+const logo = 'https://baijashop.com/img/baija-shop-logo-1549555162.jpg'
 const LeftMenu = [
   {
     catalog: "ALL",
