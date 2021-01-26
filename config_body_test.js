@@ -35,11 +35,39 @@ var blocks_config = {
 }
 var Brands = []
 
+//Promotions block
+var Promotions = [
+    {
+        title: "MOANA",
+        buttonText: "Shop Now",
+        link: 'Transactions/scope_items/3f26ad66-86f7-4661-bd86-6f9c35e684d6?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22e3c559be-8581-4313-9095-cb5c113c3564%5C%22%7D%22&TopPadding=0&SmartSearch=%5B%7B%22ApiName%22:%22ItemMainCategory%22,%22ComparisonType%22:%22Values%22,%22Values%22:%5B%22Paul%20Pitchell%22%5D%7D%5D',
+        image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AAB9o_LOF7wV-vtDl-eYxPsXa/1-MOANA/COFFRET%20MOANA.jpeg?dl=0'
+    },
+    {
+        title: "DELIRIUM FLORAL",
+        buttonText: "Shop Now",
+        link: 'Transactions/scope_items/3f26ad66-86f7-4661-bd86-6f9c35e684d6?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%223da50a6c-8a60-4b9c-93f6-a0c83de35072%5C%22%7D%22&TopPadding=0',
+        image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AACr7Ls-j6ASshDixikVE1jNa/2-DELIRIUM%20FLORAL/delirium%20floral%20home.png?dl=0'
+    },
+    {
+        title: "EAUX DE PARFUM",
+        buttonText: "Shop Now",
+        link: 'Transactions/scope_items/3f26ad66-86f7-4661-bd86-6f9c35e684d6?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22e3c559be-8581-4313-9095-cb5c113c3564%5C%22%7D%22&TopPadding=0&SmartSearch=%5B%7B%22ApiName%22:%22ItemMainCategory%22,%22ComparisonType%22:%22Values%22,%22Values%22:%5B%22Beauty%20%26%20Make%20Up%22%5D%7D%5D',
+        image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AABUT0sMXdWioGkMnAB2fFEta/3-EAUX%20DE%20PARFUM/Pr%C3%A9sentoir%20eau%20parfums.tif?dl=0'
+    },
+    {
+        title: "CREMES MAINS",
+        buttonText: "Shop Now",
+        link: 'Transactions/scope_items/3f26ad66-86f7-4661-bd86-6f9c35e684d6?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22e3c559be-8581-4313-9095-cb5c113c3564%5C%22%7D%22&TopPadding=0&SmartSearch=%5B%7B%22ApiName%22:%22ItemMainCategory%22,%22ComparisonType%22:%22Values%22,%22Values%22:%5B%22Beauty%20%26%20Make%20Up%22%5D%7D%5D',
+        image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AAD2eOpASj6seZMUQ7LO2RtYa/4-CR%C3%88MES%20MAINS/P1140485-LIGHT.png?dl=0'
+    }
+]
+
 var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://uc2be454a4c7f8526de23d72996d.previews.dropboxusercontent.com/p/thumb/ABCRZZCA_70PGGrs5NjIJwpEzGerMA3tx813QIIZKBzIYICiHPyfNSVo-bhQwls8HK7sZFf-LnYxOZOiFWd_Vi7IV-7S-Mtu9_Fqn6ntoNK9mZe_OfqTsoRPSpL6C1YwHSWDnRJVVkCNjUkRU18G8HLZPMceMVsBjIlj6vCBygKy14DBlAW3kHDM2Uf6A23f-rvlHH6sSe_YtWqOlcg61Qn4jGEMq8m3E-vP9YtC8eEFjqX-OH083Fz2x85ZADeeTnMkKI_iPK4wwj2-sOMSx7RhDJ2tz5qTs1Lnog4Noi0FwVqaenzzy7-yxHZPH5SMkAPMs_uAMXkTJGIvnh0A4Q-k5DeirrsfWrjZ5UHc1aSWFQ/p.png?size=178x178&size_mode=1',
+    imageURL: 'https://www.dropbox.com/sh/q633strtdfsizi9/AABK9C-vIb5wDf4xfaEBPVrja/5-BANDEAU%20NOUVEAUT%C3%89/5-BANDEAU%20NOUVEAUT%C3%89/1.%20BANNI%C3%88RE.png?dl=0',
     description: '',
     buttonText: '',
     time: 5000,
@@ -48,7 +76,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://ucd67453f8435fd24a9ba3b0200b.previews.dropboxusercontent.com/p/thumb/ABAgMj3PklNSVi69-Yia4br2mL7DCupdFtnhmh6SPIOW9Orf11_FtAF2EhuRcifk_uNFQ8fE3_tbHzpMHEeFwG4dH_s8ixTGh1qwWJ0Z1wtm_9TGVNMp_xJVwOySlwwuCZ93lic9hZiwA1LraRhyU-sjIPjnMti7at65Ak-SBlMhy6eFhT5DmKks9cuDQywAHoTvhElPI60IZcTsC1tgAe4zo75UIxcznuZ_jSdXEoOhe5KmgTg8GpThQtk2TNNrdctytfSFLhC04H-o7flANFyfEhRG2M_4mRi2fV_h2Stu-lO-oCnCfISwNIF0b3BduA1uyXwSJl3vrqE4NILkLdK5wsVG0oa1H4KHcTq22vS56A/p.png?size=178x178&size_mode=1',
+    imageURL: 'https://www.dropbox.com/sh/q633strtdfsizi9/AACu0u_rPWDxWvj4aXBjz6Sga/5-BANDEAU%20NOUVEAUT%C3%89/5-BANDEAU%20NOUVEAUT%C3%89/2.%20BANNI%C3%88RE.png?dl=0',
     description: '',
     buttonText: '',
     time: 5000,
@@ -66,7 +94,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://uc5b10bb0460d0257e759f9de15e.previews.dropboxusercontent.com/p/thumb/ABAyMPM5uw3_q2qP7LXlgoSeRBBMTTbG3yW1hQPHVu8RSR8cdkZlZX7Tzfwz9Pca7lTRf_PKOLJ389KzGKFgsfvbGJGZRYdtR1_DP9M748vW_fSPNTSpvcfQdVq_MUCMMgSWFxCPLM_QYAOLlouY2rwBhnOXu7g6Yj3xiySl1_9jwDA2SSP7aDXYUgumEx6pQ2LZwKO21SkSia5iO93W1M1ASi4cJU-OvHJca_NPJmCBYh9_rPNVd1NDm8zyKbbcAtZkUt44aA0ZB41SVmJCWEjazKeBhJIxKnbgz_t4p1T1nUzHBTIvuaGMhKvHzQL-0aEJq5Ohxqtz_jpJ1kZN1J8RFuq_ezmobIVc6cjtP2mCtw/p.png?size=178x178&size_mode=1',
+    imageURL: 'https://www.dropbox.com/sh/q633strtdfsizi9/AAADEMucCkoV4HQM1-2Y0vQua/5-BANDEAU%20NOUVEAUT%C3%89/5-BANDEAU%20NOUVEAUT%C3%89/4.%20BANNIERE.png?dl=0',
     description: '',
     buttonText: '',
     time: 5000,
