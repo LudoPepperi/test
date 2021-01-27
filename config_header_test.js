@@ -18,7 +18,7 @@ const LeftMenu = [
   },
 
   {
-    catalog: "ALL",
+    catalog: "B2B",
     transaction: "",
     title: "",
     action:"setUUIDandNav",
@@ -26,14 +26,14 @@ const LeftMenu = [
   },
 
   {
-    catalog: "ALL",
+    catalog: "B2B",
     transaction: "",
     title: "",
     action:"setUUIDandNav",
     deepLink: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%222a7c613e-1e67-4497-af60-ae8a6633487a%5C%22%7D%22'
   },
   {
-    catalog: "ALL",
+    catalog: "B2B",
     transaction: "",
     title: "",
     action:"createNewTransaction",
@@ -42,8 +42,8 @@ const LeftMenu = [
 ];
 const RightMenu = [
   {
-    catalog: "ALL",
-    transaction: "B2B Order",
+    catalog: "B2B",
+    transaction: "Commande B2B",
     title: "Favorites",
     icon:`          
 	<svg class="end-icon" xmlns="http://www.w3.org/2000/svg" style="width:24px !important;height:24px !important" viewBox="0 0 24 24">
