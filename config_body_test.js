@@ -39,7 +39,6 @@ var Brands = []
 var Promotions = [
     {
         title: "MOANA",
-        buttonText: "Shop Now",
         deeplink: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"MOANA - FLEUR DE TIARE\\\"}\"}"&TopPadding=0&SearchAll=true',
         image: 'MOANA.jpg'
     },
