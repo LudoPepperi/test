@@ -39,24 +39,25 @@ var Brands = []
 var Promotions = [
     {
         title: "MOANA",
+        buttonText: "Cliquez ici",
         deeplink: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"MOANA - FLEUR DE TIARE\\\"}\"}"&TopPadding=0&SearchAll=true',
         image: 'MOANA.jpg'
     },
     {
         title: "DELIRIUM FLORAL",
-        buttonText: "Shop Now",
-        link: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%223da50a6c-8a60-4b9c-93f6-a0c83de35072%5C%22%7D%22&TopPadding=0',
+        buttonText: "Cliquez ici",
+        link: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22DELIRIUM%20FLORAL%20-%20IRIS%20PATCHOULI%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchString=',
         image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AACr7Ls-j6ASshDixikVE1jNa/2-DELIRIUM%20FLORAL/delirium%20floral%20home.png'
     },
     {
         title: "EAUX DE PARFUM",
-        buttonText: "Shop Now",
+        buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22e3c559be-8581-4313-9095-cb5c113c3564%5C%22%7D%22&TopPadding=0&SmartSearch=%5B%7B%22ApiName%22:%22ItemMainCategory%22,%22ComparisonType%22:%22Values%22,%22Values%22:%5B%22Beauty%20%26%20Make%20Up%22%5D%7D%5D',
         image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AABUT0sMXdWioGkMnAB2fFEta/3-EAUX%20DE%20PARFUM/Pr%C3%A9sentoir%20eau%20parfums.tif'
     },
     {
         title: "CR\u00c9MES MAINS",
-        buttonText: "Shop Now",
+        buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/3{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22e3c559be-8581-4313-9095-cb5c113c3564%5C%22%7D%22&TopPadding=0&SmartSearch=%5B%7B%22ApiName%22:%22ItemMainCategory%22,%22ComparisonType%22:%22Values%22,%22Values%22:%5B%22Beauty%20%26%20Make%20Up%22%5D%7D%5D',
         image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AAD2eOpASj6seZMUQ7LO2RtYa/4-CR%C3%88MES%20MAINS/P1140485-LIGHT.png'
     }
