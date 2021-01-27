@@ -1,17 +1,17 @@
-var Transaction = 'B2B Order';
-var Catalog='ALL'
+var Transaction = 'Commande B2B';
+var Catalog='B2B'
 const logo = 'https://baijashop.com/img/baija-shop-logo-1549555162.jpg'
 const LeftMenu = [
   {
-    catalog: "ALL",
-    transaction: "B2B Order",
+    catalog: "B2B",
+    transaction: "Commande B2B",
     title: "",
     action:"setUUIDandNav",
     deepLink: '/Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%227142a6f9-af48-4dba-a30d-85d89b2ed083%5C%22%7D%22'
   },
   {
-    catalog: "ALL",
-    transaction: "B2B Order",
+    catalog: "B2B",
+    transaction: "Commande B2B",
     title: "",
     action:"setUUIDandNav",
     deepLink: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22023bad44-a6d3-435b-928d-bab0a41b4dc6%5C%22%7D%22'
