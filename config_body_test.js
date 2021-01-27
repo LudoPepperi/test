@@ -41,7 +41,7 @@ var Promotions = [
         title: "MOANA",
         buttonText: "Cliquez ici",
         deeplink: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"MOANA - FLEUR DE TIARE\\\"}\"}"&TopPadding=0&SearchAll=true',
-        image: 'MOANA.jpg'
+        image: 'https://ludopepperi.github.io/test/MOANA.jpg'
     },
     {
         title: "DELIRIUM FLORAL",
