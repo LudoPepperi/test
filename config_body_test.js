@@ -40,7 +40,7 @@ var Promotions = [
     {
         title: "MOANA",
         buttonText: "Shop Now",
-        link: 'Transactions/scope_items/3f26ad66-86f7-4661-bd86-6f9c35e684d6?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22e3c559be-8581-4313-9095-cb5c113c3564%5C%22%7D%22&TopPadding=0&SmartSearch=%5B%7B%22ApiName%22:%22ItemMainCategory%22,%22ComparisonType%22:%22Values%22,%22Values%22:%5B%22Paul%20Pitchell%22%5D%7D%5D',
+        link: 'Transactions/scope_items/7354bc6ee56f408ba5f1068623f93548?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"MOANA - FLEUR DE TIARE\\\"}\"}"&TopPadding=0&SearchAll=false',
         image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AAB9o_LOF7wV-vtDl-eYxPsXa/1-MOANA/COFFRET%20MOANA.jpeg'
     },
     {
