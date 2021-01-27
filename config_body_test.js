@@ -28,7 +28,7 @@ var blocks_config = {
     }
     ,
     'submitted_orders': {
-        name: "Derniere commande",
+        name: "Derni\u00e9re commande",
         statuses: ["2"],
         table: ["ActionDateTime", "InternalID"]
     }
@@ -56,7 +56,7 @@ var Promotions = [
         image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AABUT0sMXdWioGkMnAB2fFEta/3-EAUX%20DE%20PARFUM/Pr%C3%A9sentoir%20eau%20parfums.tif?dl=0'
     },
     {
-        title: "CREMES MAINS",
+        title: "CR\u00c9MES MAINS",
         buttonText: "Shop Now",
         link: 'Transactions/scope_items/3f26ad66-86f7-4661-bd86-6f9c35e684d6?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22e3c559be-8581-4313-9095-cb5c113c3564%5C%22%7D%22&TopPadding=0&SmartSearch=%5B%7B%22ApiName%22:%22ItemMainCategory%22,%22ComparisonType%22:%22Values%22,%22Values%22:%5B%22Beauty%20%26%20Make%20Up%22%5D%7D%5D',
         image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AAD2eOpASj6seZMUQ7LO2RtYa/4-CR%C3%88MES%20MAINS/P1140485-LIGHT.png?dl=0'
