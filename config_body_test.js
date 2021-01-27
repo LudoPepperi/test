@@ -67,7 +67,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://www.dropbox.com/sh/q633strtdfsizi9/AABK9C-vIb5wDf4xfaEBPVrja/5-BANDEAU%20NOUVEAUT%C3%89/5-BANDEAU%20NOUVEAUT%C3%89/1.%20BANNI%C3%88RE.png',
+    imageURL: 'https://ludopepperi.github.io/test/1. BANNIÈRE.png',
     description: '',
     buttonText: '',
     time: 5000,
@@ -76,7 +76,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://www.dropbox.com/sh/q633strtdfsizi9/AACu0u_rPWDxWvj4aXBjz6Sga/5-BANDEAU%20NOUVEAUT%C3%89/5-BANDEAU%20NOUVEAUT%C3%89/2.%20BANNI%C3%88RE.png',
+    imageURL: 'https://ludopepperi.github.io/test/2. BANNIÈRE.png ',
     description: '',
     buttonText: '',
     time: 5000,
@@ -85,7 +85,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://www.dropbox.com/sh/q633strtdfsizi9/AACXSfaElNIoq2d4owfuRSx3a/5-BANDEAU%20NOUVEAUT%C3%89/5-BANDEAU%20NOUVEAUT%C3%89/3.BANNI%C3%88RE.png',
+    imageURL: 'https://ludopepperi.github.io/test/3.BANNIÈRE.png',
     description: '',
     buttonText: '',
     time: 5000,
@@ -94,7 +94,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://www.dropbox.com/sh/q633strtdfsizi9/AAADEMucCkoV4HQM1-2Y0vQua/5-BANDEAU%20NOUVEAUT%C3%89/5-BANDEAU%20NOUVEAUT%C3%89/4.%20BANNIERE.png',
+    imageURL: 'https://ludopepperi.github.io/test/4. BANNIERE.png',
     description: '',
     buttonText: '',
     time: 5000,
