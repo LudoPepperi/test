@@ -67,7 +67,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://ludopepperi.github.io/test/1. BANNIÈRE.png',
+    imageURL: 'https://ludopepperi.github.io/test/1.BANNIÈRE.png',
     description: '',
     buttonText: '',
     time: 5000,
@@ -76,7 +76,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://ludopepperi.github.io/test/2. BANNIÈRE.png ',
+    imageURL: 'https://ludopepperi.github.io/test/2.BANNIÈRE.png ',
     description: '',
     buttonText: '',
     time: 5000,
@@ -94,7 +94,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://ludopepperi.github.io/test/4. BANNIERE.png',
+    imageURL: 'https://ludopepperi.github.io/test/4.BANNIERE.png',
     description: '',
     buttonText: '',
     time: 5000,
