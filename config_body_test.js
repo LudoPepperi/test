@@ -40,7 +40,7 @@ var Promotions = [
     {
         title: "MOANA",
         buttonText: "Shop Now",
-        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"MOANA - FLEUR DE TIARE\\\"}\"}"&TopPadding=0&SearchAll=false',
+        deeplink: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"MOANA - FLEUR DE TIARE\\\"}\"}"&TopPadding=0&SearchAll=true',
         image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AAB9o_LOF7wV-vtDl-eYxPsXa/1-MOANA/COFFRET%20MOANA.jpeg'
     },
     {
