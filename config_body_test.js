@@ -47,19 +47,19 @@ var Promotions = [
         title: "DELIRIUM FLORAL",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22DELIRIUM%20FLORAL%20-%20IRIS%20PATCHOULI%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchString=',
-        image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AACr7Ls-j6ASshDixikVE1jNa/2-DELIRIUM%20FLORAL/delirium%20floral%20home.png'
+        image: 'https://ludopepperi.github.io/test/delirium floral home.png'
     },
     {
         title: "EAUX DE PARFUM",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="%7B%5C"JsonFilter%5C":%5C"5332e389-e1f9-421e-bc33-689bdfbca16c%5C",%5C"Parent%5C":%5C"%7B%5C%5C%5C"DynamicFilter%5C%5C%5C":%5C%5C%5C"Item.MainCategory%5C%5C%5C",%5C%5C%5C"Value%5C%5C%5C":%5C%5C%5C"EAUX%20DE%20PARFUM%5C%5C%5C"%7D%5C"%7D"&TopPadding=0&SearchAll=false',
-        image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AABUT0sMXdWioGkMnAB2fFEta/3-EAUX%20DE%20PARFUM/Pr%C3%A9sentoir%20eau%20parfums.tif'
+        image: 'https://ludopepperi.github.io/test/Présentoir eau parfums.png'
     },
     {
         title: "CR\u00c9MES MAINS",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="%7B%5C"JsonFilter%5C":%5C"5332e389-e1f9-421e-bc33-689bdfbca16c%5C",%5C"Parent%5C":%5C"%7B%5C%5C%5C"DynamicFilter%5C%5C%5C":%5C%5C%5C"Item.MainCategory%5C%5C%5C",%5C%5C%5C"Value%5C%5C%5C":%5C%5C%5C"CROISIERE%20CELANDON%20-%20THE%20VERT%20JASMIN%5C%5C%5C"%7D%5C"%7D"&TopPadding=0&SearchAll=false',
-        image: 'https://www.dropbox.com/sh/q633strtdfsizi9/AAD2eOpASj6seZMUQ7LO2RtYa/4-CR%C3%88MES%20MAINS/P1140485-LIGHT.png'
+        image: 'https://ludopepperi.github.io/test/P1140485-LIGHT.png'
     }
 ]
 
