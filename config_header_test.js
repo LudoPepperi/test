@@ -2,14 +2,15 @@ var Transaction = 'Commande B2B';
 var Catalog = 'B2B'
 const logo = 'https://baijashop.com/img/baija-shop-logo-1549555162.jpg'
 const LeftMenu = [
-	{
-    title: "Commande",
-    action:"navigation",
-    deepLink: 'Sales Order'
-  },
+	
  
 ];
 const RightMenu = [
+	{
+    title: "Commande",
+    action:"setUUIDandNav",
+    deepLink: '/Transactions/scope_items/{{UUID}}';
+  },
   {
         catalog: "B2B",
         transaction: "Commande B2B",
