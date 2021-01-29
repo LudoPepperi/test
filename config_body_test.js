@@ -15,6 +15,7 @@ var blocks_config = {
     'active-order':
     {
         name: "Commande en cours",
+        buttonText: "Retour Commande",
         table: [{
             text: "Sous-Total",
             field: "SubTotal"
