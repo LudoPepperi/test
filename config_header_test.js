@@ -18,7 +18,7 @@ const RightMenu = [
     deepLink: '/Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%227142a6f9-af48-4dba-a30d-85d89b2ed083%5C%22%7D%22'
   },
   {
-    title: "Activit\u00e9s",
+    title: "Historique",
     action:"navigation",
     deepLink: 'list/all_activities'
   },
