@@ -3,12 +3,12 @@ var Catalog='B2B'
 var blocks_config = {
     'free_shipping': {
         text: "",
-        field: "TSAFreeShipping",
+        field: "InternalID",
         svg:"https://storage.pepperi.com/General/Icons/truck.svg"
     },
     'account_balance': {
         text: "Point",
-        field: "TSACreditLimit",
+        field: "InternalID",
         measure_unit: "Points",
         svg:"https://storage.pepperi.com/General/Icons/balance.svg"
     },
@@ -19,7 +19,7 @@ var blocks_config = {
             text: "Sous-Total",
             field: "SubTotal"
         }, {
-            text: "Total Quantite",
+            text: "Total Quantit ",
             field: "QuantitiesTotal"
         }, {
             text: "Total HT",
