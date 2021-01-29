@@ -2,8 +2,8 @@ var Transaction = 'Commande B2B';
 var Catalog='B2B'
 var blocks_config = {
     'free_shipping': {
-        text: "",
-        field: "InternalID",
+        text: "Frais de Port Offert",
+        field: "",
         svg:"https://storage.pepperi.com/General/Icons/truck.svg"
     },
     'account_balance': {
