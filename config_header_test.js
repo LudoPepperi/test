@@ -23,8 +23,8 @@ const RightMenu = [
 		catalog: "B2B",
         transaction: "Commande B2B",
     title: "Commande",
-    action:"setUUIDandNav",
-    deepLink: '/Transactions/scope_items/{{UUID}}';
+    action:"createNewTransaction",
+    deepLink: '/Transactions/scope_items/{{UUID}}'
   },
   {
     title: "Historique",
