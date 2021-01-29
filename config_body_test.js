@@ -19,7 +19,7 @@ var blocks_config = {
             text: "Sous-Total",
             field: "SubTotal"
         }, {
-            text: "Total Quantit ",
+            text: "Total Quantit\u00c9",
             field: "QuantitiesTotal"
         }, {
             text: "Total HT",
