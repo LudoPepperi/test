@@ -31,6 +31,18 @@ const RightMenu = [
     action:"navigation",
     deepLink: 'list/all_activities'
   },
+	{
+    title: "Mes Contacts",
+    action:"createNewActivity",
+    deepLink: '/activities/details/7c62c0d2-651e-43a9-8071-f78136117899'
+  },
+	{
+    title: "Nous contacter",
+    action:"createNewActivity",
+    deepLink: '/activities/details/44266d52-fa5f-4bea-be80-6b8790bdf147'
+  },
+	
+	
 ]
 /*actions:
 
