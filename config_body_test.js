@@ -18,7 +18,8 @@ var blocks_config = {
         buttonText: "Retour Commande",
         table: [{
             text: "Sous-Total",
-            field: "SubTotal"
+            field: "SubTotal",
+            measure_unit: "\u20ac"
         }, {
             text: "Total Quantit\u00e9",
             field: "QuantitiesTotal"
