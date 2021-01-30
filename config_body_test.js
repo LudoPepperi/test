@@ -21,7 +21,7 @@ var blocks_config = {
             field: "SubTotal",
             measure_unit: "\u20ac"
         }, {
-            text: "Total Quantit\u00e9",
+            text: "Total Quantity",
             field: "QuantitiesTotal",
             measure_unit: ""
         }, {
