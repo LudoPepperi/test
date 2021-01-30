@@ -34,12 +34,12 @@ const RightMenu = [
 	{
     title: "Mes Contacts",
     action:"createNewActivity",
-    deepLink: '/activities/details/7c62c0d2-651e-43a9-8071-f78136117899'
+    deepLink: '/activities/Mes_Contacts/{{UUID}}'
   },
 	{
     title: "Nous contacter",
     action:"createNewActivity",
-    deepLink: '/activities/details/44266d52-fa5f-4bea-be80-6b8790bdf147'
+    deepLink: '/activities/Nous_Contacter/{{UUID}}'
   },
 	
 	
