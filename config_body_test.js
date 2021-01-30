@@ -22,10 +22,12 @@ var blocks_config = {
             measure_unit: "\u20ac"
         }, {
             text: "Total Quantit\u00e9",
-            field: "QuantitiesTotal"
+            field: "QuantitiesTotal",
+            measure_unit: "\u20ac"
         }, {
             text: "Total HT",
-            field: "GrandTotal"
+            field: "GrandTotal",
+            measure_unit: "\u20ac"
         }]
     }
     ,
