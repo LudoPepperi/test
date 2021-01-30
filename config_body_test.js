@@ -3,7 +3,7 @@ var Catalog='B2B'
 var blocks_config = {
     'free_shipping': {
         text: "Frais de Port Offert",
-        field: "",
+        field: "A partir de "+"TSAFraisdePort"+"Currency",
         svg:"https://storage.pepperi.com/General/Icons/truck.svg"
     },
     'account_balance': {
