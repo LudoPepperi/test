@@ -32,14 +32,16 @@ const RightMenu = [
     deepLink: 'list/all_activities'
   },
 	{
+    activity:"Mes Contacts",	
     title: "Mes Contacts",
     action:"createNewActivity",
-    deepLink: '/activities/Mes_Contacts/{{UUID}}'
+    deepLink: '/activities/details/{{UUID}}'
   },
 	{
+    activity:"Nous contacter",
     title: "Nous contacter",
     action:"createNewActivity",
-    deepLink: '/activities/Nous_Contacter/{{UUID}}'
+    deepLink: '/activities/details/{{UUID}}'
   },
 	
 	
