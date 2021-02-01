@@ -125,7 +125,7 @@ var Promotions = [
     {
         title: "EAUX DE PARFUM",
         buttonText: "Cliquez ici",
-        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="%7B%5C"JsonFilter%5C":%5C"5332e389-e1f9-421e-bc33-689bdfbca16c%5C",%5C"Parent%5C":%5C"%7B%5C%5C%5C"DynamicFilter%5C%5C%5C":%5C%5C%5C"Item.MainCategory%5C%5C%5C",%5C%5C%5C"Value%5C%5C%5C":%5C%5C%5C"EAUX%20DE%20PARFUM%5C%5C%5C"%7D%5C"%7D"&TopPadding=0&SearchAll=false',
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"EAUX DE PARFUM\\\"}\"}"&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/test/Présentoir eau parfums.png'
     },
     {
