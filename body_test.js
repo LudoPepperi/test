@@ -22,11 +22,11 @@ var customHomepage = {};
   this.accountUUID;
   this.catalogs = [];
   this.accounts = [];
-  this.jsonFilePath = 'https://github.com/LudoPepperi/bainetnature/blob/main/config_body.js'
-  this.isMultiAccount = true
+  this.jsonFilePath = 'https://ludopepperi.github.io/bainetnature/config_body_test.js';
+  this.isMultiAccount = true;
   this.cssFilePath = "";
-  this.transactionFields = []
-  this.transactionsHistoryFields = []
+  this.transactionFields = [];
+  this.transactionsHistoryFields = [];
 
 
 
@@ -53,6 +53,9 @@ var customHomepage = {};
   grid-row: 1 / 3;
 }
 
+#categories{
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+}
 @media screen and (max-width: 1280px) {
   #brands {
     -ms-grid-columns: (1fr)[3];
@@ -117,7 +120,7 @@ var customHomepage = {};
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: unset !important;
   padding: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,7 +136,7 @@ var customHomepage = {};
 
 @media screen and (max-width: 960px) {
   .slide .gard-overlay {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+    background: unset !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -387,7 +390,8 @@ var customHomepage = {};
   transition: box-shadow ease-in-out 0.35s, -webkit-box-shadow ease-in-out 0.35s;
   background-size: cover;
   margin-bottom: 1rem;
-  height: 12rem;
+ height: 400px;
+  max-width: 350px;
 }
 
 .promotion .gard-overlay {
@@ -397,15 +401,15 @@ var customHomepage = {};
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0) 80%);
   padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -432,15 +436,15 @@ var customHomepage = {};
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0) 80%);
   padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -449,7 +453,7 @@ var customHomepage = {};
 .title-4-lg {
   font-weight: 700;
   font-size: 2rem;
-  color: white;
+  color: black;
   line-height: 1.1em;
 }
 
@@ -855,7 +859,7 @@ var customHomepage = {};
                   
                 </div>
           
-                <hr class="sidebar-gap">
+              
           
                 <div id="submitted_orders" style="display:none">
                   
@@ -867,13 +871,14 @@ var customHomepage = {};
             </aside>
           
             <div id="categories">
-              <div id="brands">
-          
+              <div id="promotions"></div>
+              <div id="promotions2"></div>              
+              <div id="promotions3"></div>           
+              <div id="promotions4"></div>          
+
+
               </div>
-              <div id="promotions">
-                
-              </div>
-            </div>
+            
           </main>
     `;
     return str;
@@ -915,6 +920,9 @@ var customHomepage = {};
     this.carousel("carousal-content", CaruselData)
     this.drawImagesBlocks("brands", Brands)
     this.drawPromotions("promotions", Promotions)
+    this.drawPromotions2("promotions2", Promotions2)
+    this.drawPromotions3("promotions3", Promotions3)
+    this.drawPromotions4("promotions4", Promotions4)
     this.getAccounts('customHomepage.findTransactionForSelectedAccount');
   };
 
@@ -949,19 +957,19 @@ var customHomepage = {};
       style="background-image: url('${value.imageURL}')">
       <div class="gard-overlay">
           <div class="slide-text">
-              <button id="shop_now" onclick="customHomepage.setUUIDandNav(null,null,'${value.deepLink}', 'this')" >${value.buttonText}</button>
-              <p class="title">${value.title}</p>
-              <p class="desc">${value.description}</p>
+          ${value.buttonText? `<button id="shop_now" onclick="customHomepage.setUUIDandNav(null,null,'${value.deepLink}', 'this')" >${value.buttonText}</button>`:""}              <p class="desc">${value.description}</p>
           </div>
           <div class="slide-controllers">
               <div id="indicators" class="indicators">
                   
               </div>
-              <button onclick="event.stopImmediatePropagation();this.playerClick();" class="pause" id="player">
+              <button onclick="event.stopImmediatePropagation();customHomepage.playerClick();" class="pause" id="player">
               </button>
           </div>
       </div>
   </div></div></div>`
+
+ 
   
       document.getElementById(slideid).innerHTML = htmlStr;
   
@@ -986,16 +994,17 @@ var customHomepage = {};
   
       this.swipeListener()
   }
-  
+
+ 
   this.playerClick = function () {
       var btn = document.getElementById("player");
       var btnClass = btn.className;
       if (btnClass == "play") {
           btn.className = "pause";
-          customHomepage.switchSlide();
+          this.switchSlide();
       } else {
           btn.className = "play";
-          clearTimeout(this.slideSwitchTimeoutKeeper);
+          clearTimeout(this.switcher);
       }
   };
   customHomepage.switchSlide = function (isCurrent, next = true) {
@@ -1012,7 +1021,7 @@ var customHomepage = {};
           0;
   
       value = CaruselData[idx];
-      this.setSessionStorage(
+      this.setSessionStorage( 
           "savedIDX",
           +sessionStorage.getItem("savedIDX") + 1 < CaruselData.length ?
           +sessionStorage.getItem("savedIDX") + 1 :
@@ -1023,15 +1032,14 @@ var customHomepage = {};
       style="background-image: url('${value.imageURL}')">
       <div class="gard-overlay">
           <div class="slide-text">
-              <button id="shop_now" onclick="customHomepage.setUUIDandNav(null,null,'${value.deepLink}','customHomepage')" >${value.buttonText}</button>
-              <p class="title">${value.title}</p>
+          ${value.buttonText? `<button id="shop_now" onclick="customHomepage.setUUIDandNav(null,null,'${value.deepLink}', 'this')" >${value.buttonText}</button>`:""}              <p class="title">${value.title}</p>
               <p class="desc">${value.description}</p>
           </div>
           <div class="slide-controllers">
               <div id="indicators" class="indicators">
                   
               </div>
-              <button onclick="event.stopImmediatePropagation();this.playerClick();" class="pause" id="player">
+              <button onclick="event.stopImmediatePropagation();   customHomepage.playerClick();" class="pause" id="player">
               </button>
           </div>
       </div>
@@ -1042,12 +1050,12 @@ var customHomepage = {};
               indicatorsStr +=
                   idx1 == idx ?
                   `<div class="radio-box">
-             <input type="radio" name="indicator" data-slide="${idx1}" data-time="${value.time}"  data-state="active" onclick="event.stopImmediatePropagation();this.setSessionStorage('savedIDX', this.getAttribute('data-slide')); customHomepage.switchSlide(true)" checked="checked">
-             <span class="radio-dot" data-slide="${idx1}" data-time="${value.time}"  data-state="active"  onclick="event.stopImmediatePropagation();this.setSessionStorage('savedIDX', this.getAttribute('data-slide')); customHomepage.switchSlide(true)"></span>
+             <input type="radio" name="indicator" data-slide="${idx1}" data-time="${value.time}"  data-state="active" onclick="event.stopImmediatePropagation(); customHomepage.setSessionStorage('savedIDX', this.getAttribute('data-slide')); customHomepage.switchSlide(true)" checked="checked">
+             <span class="radio-dot" data-slide="${idx1}" data-time="${value.time}"  data-state="active"  onclick="event.stopImmediatePropagation(); customHomepage.setSessionStorage('savedIDX', this.getAttribute('data-slide')); customHomepage.switchSlide(true)"></span>
              </div>` :
                   `<div class="radio-box">
-             <input type="radio" name="indicator" data-slide="${idx1}" data-time="${value.time}" onclick="event.stopImmediatePropagation();this.setSessionStorage('savedIDX', this.getAttribute('data-slide')); customHomepage.switchSlide(true)">
-             <span class="radio-dot" data-slide="${idx1}" data-time="${value.time}"  data-state="active"  onclick="event.stopImmediatePropagation();this.setSessionStorage('savedIDX', this.getAttribute('data-slide')); customHomepage.switchSlide(true)"></span>
+             <input type="radio" name="indicator" data-slide="${idx1}" data-time="${value.time}" onclick="event.stopImmediatePropagation(); customHomepage.setSessionStorage('savedIDX', this.getAttribute('data-slide')); customHomepage.switchSlide(true)">
+             <span class="radio-dot" data-slide="${idx1}" data-time="${value.time}"  data-state="active"  onclick="event.stopImmediatePropagation(); customHomepage.setSessionStorage('savedIDX', this.getAttribute('data-slide')); customHomepage.switchSlide(true)"></span>
              </div>`;
           }
           document.getElementById("indicators").innerHTML = indicatorsStr;
@@ -1335,13 +1343,13 @@ var customHomepage = {};
       this.setSessionStorage("LastOpenTransactionUUID", uuid);
       recentOrdBtnDeeplink = 'Transactions/Cart/' + data.objects[0].UUID;
       $("#orderBtn").attr("onclick", `customHomepage.setUUIDandNav(null,null,'${recentOrdBtnDeeplink}', 'customHomepage')`);
-      $("#orderBtn").text("Back to Cart")
+      $("#orderBtn").text("Retour \u00e0 la Commande")
       this.buildOpenOrdersTable(data.objects, data.requestID);
     } else {
       this.setSessionStorage("LastOpenTransactionUUID", '');
       recentOrdBtnDeeplink = '/Transactions/scope_items/{{UUID}}';
       $("#orderBtn").attr("onclick", `customHomepage.setUUIDandNav(null,null,'${recentOrdBtnDeeplink}', 'customHomepage')`);
-      $("#orderBtn").text("Create New Order");
+      $("#orderBtn").text("Nouvelle commande");
       let html = `<h3 class="title-2-sm " id="currTransactionName"></h3>
       <ul class="leaders" id="currTransactionFields">
       `;
@@ -1352,7 +1360,7 @@ var customHomepage = {};
         <span class="bold">0</span>
       </li>`
       })
-      html += `</ul><button class="comonBtn" id="orderBtn">Back to Cart</button>`
+      html += `</ul><button class="comonBtn" id="orderBtn">Retour \u00e0 la Commande</button>`
       
       document.getElementById(data.requestID).style.display = "flex"
       document.getElementById(data.requestID).style.flexDirection = "column"
@@ -1372,21 +1380,17 @@ var customHomepage = {};
     let html = `<h3 class="title-2-sm " id="currTransactionName"></h3>
     <ul class="leaders" id="currTransactionFields">`;
     this.transactionFields.forEach(el => {
-      if(el.text == 'Total Quantity'){
+        if (el.field !== 'QuantitiesTotal'){
+        
         html += `<li>
       <span  class="dimmed">${el.text}</span>
-      <span class="bold">${is_new ? 0 : data[0][el.field]}</span>
-    </li>`
-      }else{
-        html += `<li>
-      <span  class="dimmed">${el.text}</span>
-      <span class="bold">${is_new ? 0 : data[0][el.field]}$</span>
+      <span class="bold">${is_new ? 0 : data[0][el.field]}\u20ac</span>
     </li>`
       }
       
     })
     html += `</ul>
-    <button class="comonBtn" id="orderBtn">Back to Cart</button>`  
+    <button class="comonBtn" id="orderBtn">Retour \u00e0 la Commande</button>`  
     document.getElementById(id).style.display = "flex"  
     document.getElementById(id).style.flexDirection = "column"
     document.getElementById(id).classList.add("sidebar-box");
@@ -1491,9 +1495,9 @@ var customHomepage = {};
     } else {
       document.getElementById(data.requestID).style.display = "flex"
       document.getElementById(data.requestID
-      ).innerHTML = `<h3 class="title-2-sm " id="submitted_orders_name">Submitted Orders</h3>
+      ).innerHTML = `<h3 class="title-2-sm " id="submitted_orders_name"></h3>
       <hr>
-      <ul id="open-orders" class="leaders"><li>No submitted orders for this account</li></ul>
+      <ul id="open-orders" class="leaders"><li></li></ul>
         `;
         
     }
@@ -1527,21 +1531,57 @@ var customHomepage = {};
     let str = "";
     for (const [idx1, value] of Promotions.entries()) {
       str += `
-          <div class="promotion kits" style="background-image:url('${value.image}')">
+          <div class="promotion kits" style="background-image:url('${value.image}')" onclick="customHomepage.setUUIDandNav(null, null, '${value.link}', 'customHomepage')">
           <div class="gard-overlay" style="${(!value.title || value.title == '') ? 'background:none' : ''}">
-            <h2 class="title-4-lg">${value.title}</h2>
-            <div>
-              <button class="comonBtn custom-btn"
-                onclick="customHomepage.setUUIDandNav(null, null, '${value.link}', 'customHomepage')">
-                ${value.buttonText}
-              </button>
-            </div>
+            <h2 class="title-4-lg">${value.title}</h2> 
             </div>
           </div>`;
     }
     if (document.getElementById(id))
       document.getElementById(id).innerHTML = str;
     document.getElementById(id).classList.add("promotions")  
+  };
+  this.drawPromotions2 = function (id, Promotions2) {
+      let str = "";
+      for (const [idx1, value] of Promotions2.entries()) {
+          str += `
+          <div class="promotion kits" style="background-image:url('${value.image}')" onclick="customHomepage.setUUIDandNav(null, null, '${value.link}', 'customHomepage')">
+          <div class="gard-overlay" style="${(!value.title || value.title == '') ? 'background:none' : ''}">
+            <h2 class="title-4-lg">${value.title}</h2>
+            </div>
+          </div>`;
+      }
+      if (document.getElementById(id))
+          document.getElementById(id).innerHTML = str;
+      document.getElementById(id).classList.add("promotions2")
+  };
+  this.drawPromotions3 = function (id, Promotions3) {
+      let str = "";
+      for (const [idx1, value] of Promotions3.entries()) {
+          str += `
+          <div class="promotion kits" style="background-image:url('${value.image}')" onclick="customHomepage.setUUIDandNav(null, null, '${value.link}', 'customHomepage')">
+          <div class="gard-overlay" style="${(!value.title || value.title == '') ? 'background:none' : ''}">
+            <h2 class="title-4-lg">${value.title}</h2>   
+            </div>
+          </div>`;
+      }
+      if (document.getElementById(id))
+          document.getElementById(id).innerHTML = str;
+      document.getElementById(id).classList.add("promotions3")
+  };
+  this.drawPromotions4 = function (id, Promotions4) {
+      let str = "";
+      for (const [idx1, value] of Promotions4.entries()) {
+          str += `
+          <div class="promotion kits" style="background-image:url('${value.image}')" onclick="customHomepage.setUUIDandNav(null, null, '${value.link}', 'customHomepage')">
+          <div class="gard-overlay" style="${(!value.title || value.title == '') ? 'background:none' : ''}">
+            <h2 class="title-4-lg">${value.title}</h2> 
+            </div>
+          </div>`;
+      }
+      if (document.getElementById(id))
+          document.getElementById(id).innerHTML = str;
+      document.getElementById(id).classList.add("promotions4")
   };
 
   this.openStoreSelect = function () {
