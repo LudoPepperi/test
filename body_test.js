@@ -22,7 +22,7 @@ var customHomepage = {};
   this.accountUUID;
   this.catalogs = [];
   this.accounts = [];
-  this.jsonFilePath = 'https://github.com/LudoPepperi/test/blob/main/config_body_test.js'
+  this.jsonFilePath = 'https://github.com/LudoPepperi/bainetnature/blob/main/config_body.js'
   this.isMultiAccount = true
   this.cssFilePath = "";
   this.transactionFields = []
