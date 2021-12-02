@@ -1,5 +1,5 @@
-var Transaction = 'Commande B2B';
-var Catalog = 'B2B'
+var Transaction = 'Sales Order';
+var Catalog = 'Default Catalog'
 const logo = 'https://ludopepperi.github.io/RVF/logoRVF.jpg'
 const LeftMenu = [
 	
@@ -8,7 +8,7 @@ const LeftMenu = [
 const RightMenu = [
 	
   /*{
-        catalog: "B2B",
+        catalog: "Default Catalog",
         transaction: "Commande B2B",
     title: "",
     icon:`          
@@ -21,7 +21,7 @@ const RightMenu = [
   },*/
 	{
 		catalog: "B2B",
-        transaction: "Commande B2B",
+        transaction: "Sales Order",
     title: "Commande",
     action:"createNewTransaction",
     deepLink: '/Transactions/scope_items/{{UUID}}'
