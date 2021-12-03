@@ -9,7 +9,7 @@ const RightMenu = [
 	
   /*{
         catalog: "Default Catalog",
-        transaction: "Commande B2B",
+        transaction: "Sales Order",
     title: "",
     icon:`          
 	<svg class="end-icon" xmlns="http://www.w3.org/2000/svg" style="width:24px !important;height:24px !important" viewBox="0 0 24 24">
@@ -20,7 +20,7 @@ const RightMenu = [
     deepLink: '/Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%227142a6f9-af48-4dba-a30d-85d89b2ed083%5C%22%7D%22'
   },*/
 	{
-		catalog: "B2B",
+		catalog: "Default Catalog",
         transaction: "Sales Order",
     title: "Commande",
     action:"createNewTransaction",
