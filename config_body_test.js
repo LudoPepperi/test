@@ -39,7 +39,11 @@ var blocks_config = {
 var Brands = [
     {
         text: "COMPOSANTS",
-        subtext: "GROUPES",
+        subtext: {
+            "GROUPES":{"ROUTES","VTT"
+                 },
+            "TRANSMISSION"
+        },
         link: '/Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22DynamicFilter%5C%22:%5C%22Item.Prop1%5C%22,%5C%22Value%5C%22:%5C%22Hair%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22JsonFilter%5C%5C%5C%22:%5C%5C%5C%22696718b2-3431-4aad-b23a-8a6d7c824ef0%5C%5C%5C%22%7D%5C%22%7D%22&amp;TopPadding=0',
         img: ''
     },
