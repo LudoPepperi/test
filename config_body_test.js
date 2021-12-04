@@ -81,37 +81,37 @@ var Promotions = [
         image: 'https://ludopepperi.github.io/RVF/cateye-logo.png'
     },
     {
-        title: "CAMELBAk",
+        title: "",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"EAUX DE PARFUM\\\"}\"}"&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/camelbak-logo-white.png'
     },
     {
-        title: "GIRO",
+        title: "",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"CROISIERE CELANDON - THE VERT JASMIN\\\"}\"}"&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/giro-logo-white.png'
     },
     {
-        title: "PIRELLI",
+        title: "",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22MOANA%20-%20FLEUR%20DE%20TIARE%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/pirelli-logo.png'
     },
     {
-        title: "ROCKSHOX",
+        title: "",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22DELIRIUM%20FLORAL%20-%20IRIS%20PATCHOULI%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchString=',
         image: 'https://ludopepperi.github.io/RVF/rockshox-logo.png'
     },
     {
-        title: "SELL SAN MARCO",
+        title: "",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"EAUX DE PARFUM\\\"}\"}"&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/selle-san-marco-logo-white.png'
     },
     {
-        title: "SIDI",
+        title: "",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"CROISIERE CELANDON - THE VERT JASMIN\\\"}\"}"&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/sidi-1.png'
