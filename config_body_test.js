@@ -121,7 +121,7 @@ var Promotions = [
 var CaruselData = [
 {
 
-    title: '',
+    title: 'TIME',
     imageURL: 'https://www.royalvelofrance.fr/files/133176/img/10/speciale-8-time.jpg',
     description: '',
     buttonText: '',
@@ -130,7 +130,7 @@ var CaruselData = [
     },
 {
 
-    title: '',
+    title: 'PIRELLI',
     imageURL: 'https://www.royalvelofrance.fr/files/133176/img/04/fabien-barel-pirelli-episode-2.png',
     description: '',
     buttonText: '',
@@ -139,8 +139,8 @@ var CaruselData = [
 },
 {
 
-    title: '',
-    imageURL: 'https://ludopepperi.github.io/test/3.BANNIÈRE.png',
+    title: 'GIRO',
+    imageURL: 'https://www.royalvelofrance.fr/files/133176/img/18/latch-giro.jpg',
     description: '',
     buttonText: '',
     time: 5000,
@@ -148,8 +148,8 @@ var CaruselData = [
 },
 {
 
-    title: '',
-    imageURL: 'https://ludopepperi.github.io/test/4.BANNIERE.png',
+    title: 'ALTURA',
+    imageURL: 'https://www.royalvelofrance.fr/files/133176/img/18/route-altura.jpg',
     description: '',
     buttonText: '',
     time: 5000,
