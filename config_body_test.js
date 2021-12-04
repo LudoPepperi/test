@@ -69,32 +69,52 @@ var SubBrands = [
 //Promotions block
 var Promotions = [
     {
-        title: "MOANA",
+        title: "BELL",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22MOANA%20-%20FLEUR%20DE%20TIARE%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
-        image: 'https://ludopepperi.github.io/test/MOANA.jpg',
-        area: '1'
+        image: 'https://ludopepperi.github.io/RVF/bell-logo-color.png'
     },
     {
-        title: "DELIRIUM FLORAL",
+        title: "CATEYE",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22DELIRIUM%20FLORAL%20-%20IRIS%20PATCHOULI%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchString=',
-        image: 'https://ludopepperi.github.io/test/delirium floral home.png',
-        area: '2'
+        image: 'https://ludopepperi.github.io/RVF/cateye-logo.png'
     },
     {
-        title: "EAUX DE PARFUM",
+        title: "CAMELBAk",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"EAUX DE PARFUM\\\"}\"}"&TopPadding=0&SearchAll=false',
-        image: 'https://ludopepperi.github.io/test/Présentoir eau parfums.png',
-        area: '3'
+        image: 'https://ludopepperi.github.io/RVF/camelbak-logo-white.png'
     },
     {
-        title: "CR\u00c9MES MAINS",
+        title: "GIRO",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"CROISIERE CELANDON - THE VERT JASMIN\\\"}\"}"&TopPadding=0&SearchAll=false',
-        image: 'https://ludopepperi.github.io/test/P1140485-LIGHT.png',
-        area: '4'
+        image: 'https://ludopepperi.github.io/RVF/giro-logo-white.png'
+    },
+    {
+        title: "PIRELLI",
+        buttonText: "Cliquez ici",
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22MOANA%20-%20FLEUR%20DE%20TIARE%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
+        image: 'https://ludopepperi.github.io/RVF/pirelli-logo.png'
+    },
+    {
+        title: "ROCKSHOX",
+        buttonText: "Cliquez ici",
+        link: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22DELIRIUM%20FLORAL%20-%20IRIS%20PATCHOULI%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchString=',
+        image: 'https://ludopepperi.github.io/RVF/rockshox-logo.png'
+    },
+    {
+        title: "SELL SAN MARCO",
+        buttonText: "Cliquez ici",
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"EAUX DE PARFUM\\\"}\"}"&TopPadding=0&SearchAll=false',
+        image: 'https://ludopepperi.github.io/RVF/selle-san-marco-logo-white.png'
+    },
+    {
+        title: "SIDI",
+        buttonText: "Cliquez ici",
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"CROISIERE CELANDON - THE VERT JASMIN\\\"}\"}"&TopPadding=0&SearchAll=false',
+        image: 'https://ludopepperi.github.io/RVF/sidi-1.png'
     }
 ]
 
