@@ -122,7 +122,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://ludopepperi.github.io/test/1.BANNIÈRE.png',
+    imageURL: 'https://www.royalvelofrance.fr/files/133176/img/10/speciale-8-time.jpg',
     description: '',
     buttonText: '',
     time: 5000,
@@ -131,7 +131,7 @@ var CaruselData = [
 {
 
     title: '',
-    imageURL: 'https://ludopepperi.github.io/test/2.BANNIÈRE.png ',
+    imageURL: 'https://www.royalvelofrance.fr/files/133176/img/04/fabien-barel-pirelli-episode-2.png',
     description: '',
     buttonText: '',
     time: 5000,
