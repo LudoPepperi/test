@@ -57,17 +57,6 @@ var Brands = [
     }
 ]
 
-var SubBrands = [
-    {
-        text: 'ROUTE',
-        submenu: 'GROUPES',
-        brands: 'COMPOSANTS',
-        link: '',
-        img: ''
-    },
-    
-    ]
-
 //Promotions block
 var Promotions = [
     {
