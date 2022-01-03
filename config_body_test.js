@@ -1,12 +1,12 @@
 var Transaction = 'Commande';
 var Catalog='Default Catalog'
 var blocks_config = {
-    'free_shipping': {
+   /* 'free_shipping': {
         text: "Frais de Port Offert \u00e0 partir de :",
-        field: "AccountTSAFRANCO",
+        field: "",
         svg:"https://storage.pepperi.com/General/Icons/truck.svg"
     },
-   /* 'account_balance': {
+    'account_balance': {
         text: "Point",
         field: "InternalID",
         measure_unit: "Points",
