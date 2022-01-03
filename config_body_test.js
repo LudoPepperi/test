@@ -70,16 +70,16 @@ var SubBrands = [
 
 //Promotions block
 var Promotions = [
-    {
+     {
         title: "",
         buttonText: "Cliquez ici",
-        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"9d9db39a-3f2f-4797-ba7f-bb6abcc71c5f\",\"Parent\":\"{\\\"JsonFilter\\\":\\\"cdf580bb-e039-4dae-be88-3534e0d5f2c7\\\"}\"}"&TopPadding=0&SearchAll=false',
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%229d9db39a-3f2f-4797-ba7f-bb6abcc71c5f%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22JsonFilter%5C%5C%5C%22:%5C%5C%5C%22cdf580bb-e039-4dae-be88-3534e0d5f2c7%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=333&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/bell-logo-color.png'
     },
     {
         title: "",
         buttonText: "Cliquez ici",
-        link: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22DELIRIUM%20FLORAL%20-%20IRIS%20PATCHOULI%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchString=',
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22b317092d-5abb-451b-b5fc-c76f598816d8%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22JsonFilter%5C%5C%5C%22:%5C%5C%5C%22cdf580bb-e039-4dae-be88-3534e0d5f2c7%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/cateye-logo.png'
     },
     {
