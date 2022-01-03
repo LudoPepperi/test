@@ -1,4 +1,4 @@
-var Transaction = 'Sales Order';
+var Transaction = 'Commande';
 var Catalog = 'Default Catalog'
 const logo = 'https://ludopepperi.github.io/RVF/logoRVF.jpg'
 const LeftMenu = [
@@ -9,7 +9,7 @@ const RightMenu = [
 	
   /*{
         catalog: "Default Catalog",
-        transaction: "Sales Order",
+        transaction: "Commande",
     title: "",
     icon:`          
 	<svg class="end-icon" xmlns="http://www.w3.org/2000/svg" style="width:24px !important;height:24px !important" viewBox="0 0 24 24">
@@ -21,7 +21,7 @@ const RightMenu = [
   },*/
 	{
 		catalog: "Default Catalog",
-        transaction: "Sales Order",
+        transaction: "Commande",
     title: "Commande",
     action:"createNewTransaction",
     deepLink: '/Transactions/scope_items/{{UUID}}'
