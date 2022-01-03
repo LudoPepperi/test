@@ -70,7 +70,7 @@ var SubBrands = [
 
 //Promotions block
 var Promotions = [
-     {
+       {
         title: "",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%229d9db39a-3f2f-4797-ba7f-bb6abcc71c5f%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22JsonFilter%5C%5C%5C%22:%5C%5C%5C%22cdf580bb-e039-4dae-be88-3534e0d5f2c7%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=333&SearchAll=false',
@@ -85,37 +85,37 @@ var Promotions = [
     {
         title: "",
         buttonText: "Cliquez ici",
-        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"EAUX DE PARFUM\\\"}\"}"&TopPadding=0&SearchAll=false',
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22e3618461-f428-42ea-83a5-824f2f45d194%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22JsonFilter%5C%5C%5C%22:%5C%5C%5C%22cdf580bb-e039-4dae-be88-3534e0d5f2c7%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/camelbak-logo-white.png'
     },
     {
         title: "",
         buttonText: "Cliquez ici",
-        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"CROISIERE CELANDON - THE VERT JASMIN\\\"}\"}"&TopPadding=0&SearchAll=false',
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%2225766859-4b13-450d-b142-43eecc2a6e40%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22JsonFilter%5C%5C%5C%22:%5C%5C%5C%22cdf580bb-e039-4dae-be88-3534e0d5f2c7%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/giro-logo-white.png'
     },
     {
         title: "",
         buttonText: "Cliquez ici",
-        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22MOANA%20-%20FLEUR%20DE%20TIARE%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22f59a6fcb-cb05-4eb2-b211-1d953130db92%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22JsonFilter%5C%5C%5C%22:%5C%5C%5C%22cdf580bb-e039-4dae-be88-3534e0d5f2c7%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/pirelli-logo.png'
     },
     {
         title: "",
         buttonText: "Cliquez ici",
-        link: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22DELIRIUM%20FLORAL%20-%20IRIS%20PATCHOULI%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchString=',
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%229e7a03da-bec4-4607-8650-6f22e3408f82%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22JsonFilter%5C%5C%5C%22:%5C%5C%5C%22cdf580bb-e039-4dae-be88-3534e0d5f2c7%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/rockshox-logo.png'
     },
     {
         title: "",
         buttonText: "Cliquez ici",
-        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"EAUX DE PARFUM\\\"}\"}"&TopPadding=0&SearchAll=false',
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22957af43d-2d92-4499-8c56-92d0a3abb8fc%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22JsonFilter%5C%5C%5C%22:%5C%5C%5C%22cdf580bb-e039-4dae-be88-3534e0d5f2c7%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/selle-san-marco-logo-white.png'
     },
     {
         title: "",
         buttonText: "Cliquez ici",
-        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab="{\"JsonFilter\":\"5332e389-e1f9-421e-bc33-689bdfbca16c\",\"Parent\":\"{\\\"DynamicFilter\\\":\\\"Item.MainCategory\\\",\\\"Value\\\":\\\"CROISIERE CELANDON - THE VERT JASMIN\\\"}\"}"&TopPadding=0&SearchAll=false',
+        link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%22f0090243-85ee-4f7b-b26a-1cdf0958c125%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22JsonFilter%5C%5C%5C%22:%5C%5C%5C%22cdf580bb-e039-4dae-be88-3534e0d5f2c7%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/sidi-1.png'
     }
 ]
