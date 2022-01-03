@@ -1,8 +1,8 @@
-var Transaction = 'Commande';
+var Transaction = 'Sales Order';
 var Catalog='Default Catalog'
 var blocks_config = {
     'free_shipping': {
-        text: "Frais de Port Offert \u00e0 partir de :",
+        text: "Frais de Port Offert \u00e0 partir de 200\u20ac d'achat",
         field: "",
         svg:"https://storage.pepperi.com/General/Icons/truck.svg"
     },
@@ -57,16 +57,27 @@ var Brands = [
     }
 ]
 
+var SubBrands = [
+    {
+        text: 'ROUTE',
+        submenu: 'GROUPES',
+        brands: 'COMPOSANTS',
+        link: '',
+        img: ''
+    },
+
+    ]
+
 //Promotions block
 var Promotions = [
     {
-        title: "",
+        title: "BELL",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?SearchString=&CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22MOANA%20-%20FLEUR%20DE%20TIARE%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchAll=false',
         image: 'https://ludopepperi.github.io/RVF/bell-logo-color.png'
     },
     {
-        title: "",
+        title: "CATEYE",
         buttonText: "Cliquez ici",
         link: 'Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%225332e389-e1f9-421e-bc33-689bdfbca16c%5C%22,%5C%22Parent%5C%22:%5C%22%7B%5C%5C%5C%22DynamicFilter%5C%5C%5C%22:%5C%5C%5C%22Item.MainCategory%5C%5C%5C%22,%5C%5C%5C%22Value%5C%5C%5C%22:%5C%5C%5C%22DELIRIUM%20FLORAL%20-%20IRIS%20PATCHOULI%5C%5C%5C%22%7D%5C%22%7D%22&TopPadding=0&SearchString=',
         image: 'https://ludopepperi.github.io/RVF/cateye-logo.png'
