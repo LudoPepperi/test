@@ -1,4 +1,4 @@
-var Transaction = 'Sales Order';
+var Transaction = 'Commande';
 var Catalog='Default Catalog'
 var blocks_config = {
     'free_shipping': {
