@@ -1,7 +1,7 @@
 var Transaction = 'Commande';
 var Catalog='Default Catalog'
 var blocks_config = {
-    'free_shipping': {
+    /*'free_shipping': {
         text: "Frais de Port Offert \u00e0 partir de 200\u20ac d'achat",
         field: "",
         svg:"https://storage.pepperi.com/General/Icons/truck.svg"
@@ -11,7 +11,7 @@ var blocks_config = {
         field: "InternalID",
         measure_unit: "Points",
         svg:"https://storage.pepperi.com/General/Icons/balance.svg"
-    },
+    },*/
     'active-order':
     {
         name: "Commande en cours",
