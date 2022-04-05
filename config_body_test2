@@ -8,7 +8,7 @@ var blocks_config = {
     },
     'account_balance': {
         text: "Point",
-        field: "TSACreditLimit",
+        field: "TSAPointFidCompte",
         measure_unit: "Points",
         svg:"https://storage.pepperi.com/General/Icons/balance.svg"
     },
